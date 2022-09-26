@@ -29,7 +29,7 @@ body{
     }*/
 
     if(event.request.url.includes('jpg')){
-        event.responseWith(fetch('./images/michi3.jpg'));
+        event.respondWith(fetch('./images/michi3.jpg'));
     }
 
 });
